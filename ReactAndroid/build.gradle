@@ -390,6 +390,7 @@ android {
         consumerProguardFiles("proguard-rules.pro")
 
         ndk {
+            ndkVersion("19.2.5345600")
             moduleName("reactnativejni")
         }
 
